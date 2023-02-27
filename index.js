@@ -55,7 +55,7 @@ const router = express.Router();
 
 // Hello World for index page
 app.get('/', function (req, res) {
-    return res.send("Hello World (FortuneCloud Technology Pune Maharashtra) Shubham Lohar");
+    return res.send("This is Node js Project.....");
 })
 
 app.get('/api', function (req, res) {
